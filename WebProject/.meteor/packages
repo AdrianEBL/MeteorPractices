@@ -26,17 +26,18 @@ kadira:flow-router
 kadira:blaze-layout
 
 #librerias del capitulo 2
-erasaur:meteor-lodash
-stolinski:stylus-multi
-fortawesome:fontawesome
-spiderable
-fastclick
-raix:handlebar-helpers
-aldeed:collection2
-aldeed:autoform
-accounts-ui
-accounts-password
-matb33:bootstrap-glyphicons
-msavin:jetsetter
-zimme:active-route
-gwendall:auth-client-callbacks
+#erasaur:meteor-lodash
+#stolinski:stylus-multi
+#fortawesome:fontawesome
+#spiderable
+#fastclick
+#raix:handlebar-helpers
+#aldeed:collection2
+#aldeed:autoform
+
+#accounts-ui
+#accounts-password
+#matb33:bootstrap-glyphicons
+#msavin:jetsetter
+#zimme:active-route
+#gwendall:auth-client-callbacks

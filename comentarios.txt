@@ -15,7 +15,8 @@ meteor remove insecure
 kadira:flow-router
 
 kadira:blaze-layout
-#librerias del capitulo 2 
+
+#librerias del capitulo 2 agregar una por una, si no tarda una eternidad en cargarlos
 erasaur:meteor-lodash
 stolinski:stylus-multi
 fortawesome:fontawesome
