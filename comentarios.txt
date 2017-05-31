@@ -1,0 +1,17 @@
+**Crear proyecto con el nombre WebProject
+meteor create WebProject
+
+**Borrar el autopublish
+
+meteor remove autopublish
+
+**Borrar insecure
+
+meteor remove insecure 
+
+**Checar el archivo packages dentro de la carpeta . meteor, en este se agregaron librerias
+#librerias del capitulo 2 
+
+kadira:flow-router
+
+kadira:blaze-layout
