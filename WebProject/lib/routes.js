@@ -6,9 +6,9 @@ FlowRouter.route('/', {
 });
 
 
-FlowRouter.route('/test', {
-  name: 'test',
+FlowRouter.route('/recipe-book', {
+  name: 'recipe-book',
   action() {
-    BlazeLayout.render('MainLayout', {main: 'Test'}); //Se pone la ruta del layout
+    BlazeLayout.render('MainLayout', {main: 'Recipes'}); //Se pone la ruta del layout
   }
 });
