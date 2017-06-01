@@ -31,3 +31,8 @@ matb33:bootstrap-glyphicons
 msavin:jetsetter
 zimme:active-route
 gwendall:auth-client-callbacks
+
+
+
+se agrega una nueva libreria
+datariot:ganalytics
