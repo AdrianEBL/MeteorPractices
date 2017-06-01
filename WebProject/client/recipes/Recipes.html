@@ -1,5 +1,10 @@
 <template name="Recipes">
 <!--inyeccion de una vista de nombre NewRecipe -->
   {{> NewRecipe}}
-
+    <section class="recipes">
+        {{#each recipes}}
+            {{> Recipe}}
+        {{/each}}
+    </section>
 </template>
+
