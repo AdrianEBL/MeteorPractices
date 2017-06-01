@@ -36,3 +36,8 @@ gwendall:auth-client-callbacks
 
 se agrega una nueva libreria
 datariot:ganalytics
+
+
+
+en el video 11 para ver la lista le pone 
+localhoost:3000/recipe-book
