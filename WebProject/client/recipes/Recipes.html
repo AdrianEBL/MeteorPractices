@@ -2,9 +2,13 @@
 <!--inyeccion de una vista de nombre NewRecipe -->
   {{> NewRecipe}}
     <section class="recipes">
-        {{#each recipes}}
-            {{> Recipe}}
-        {{/each}}
+         {{#if Template.subscriptionsReady}}
+            {{#each recipes}}
+                {{> Recipe}}
+            {{/each}}
+        {{else}}
+            <p>Loading</p>
+        {{/if}} 
     </section>
 </template>
 
