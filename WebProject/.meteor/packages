@@ -41,3 +41,17 @@ kadira:blaze-layout
 #msavin:jetsetter
 #zimme:active-route
 #gwendall:auth-client-callbacks
+accounts-ui
+accounts-password
+erasaur:meteor-lodash
+stolinski:stylus-multi
+fortawesome:fontawesome
+spiderable
+fastclick
+raix:handlebar-helpers
+aldeed:collection2
+aldeed:autoform
+matb33:bootstrap-glyphicons
+msavin:jetsetter
+zimme:active-route
+gwendall:auth-client-callbacks
