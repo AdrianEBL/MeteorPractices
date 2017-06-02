@@ -1,6 +1,9 @@
 FlowRouter.route('/', {
   name: 'home',
   action() {
+    if (Meteor.userId()){
+        FlowRouter.go('recipe-book');
+    }
       GAnalytics.pageview();
     BlazeLayout.render('HomeLayout'); //Se pone la ruta del layout
   }
@@ -16,7 +19,7 @@ FlowRouter.route('/recipe-book', {
 });
 
 FlowRouter.route('/recipe/:id', {
-    name: 'recipe-book',
+    name: 'recipe',
     action() {
         GAnalytics.pageview();
         BlazeLayout.render('MainLayout', {main: 'RecipeSingle'});
