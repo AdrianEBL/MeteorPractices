@@ -56,3 +56,5 @@ meteor --settings settings.json
 **Agregar libreria, esta es la vieja confiable
 
 meteor add check
+
+--Se debe checar codigo en el capitulo 20 no esta funcionando
