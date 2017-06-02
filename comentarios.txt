@@ -49,6 +49,6 @@ localhoost:3000/recipe-book
 meteortoys:allthings
 
 
-**Agregar libreria, esta es la vieja confiable jaja
+**Agregar libreria, esta es la vieja confiable
 
 meteor add check
