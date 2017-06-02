@@ -1,3 +1,8 @@
+Accounts.onLogin(function() {
+  FlowRouter.go('recipe-book');
+});
+
+
 FlowRouter.triggers.enter([function (context, redirect) {
   if(!Meteor.userId()){
     FlowRouter.go('home');
