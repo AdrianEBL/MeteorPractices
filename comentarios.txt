@@ -41,3 +41,9 @@ datariot:ganalytics
 
 en el video 11 para ver la lista le pone 
 localhoost:3000/recipe-book
+
+
+
+**Agregar libreria
+
+meteortoys:allthings
