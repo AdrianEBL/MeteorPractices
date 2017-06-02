@@ -1,5 +1,5 @@
 FlowRouter.triggers.enter([function (context, redirect) {
-  if(!Meteor.userId){
+  if(!Meteor.userId()){
     FlowRouter.go('home');
   }
 }]);
