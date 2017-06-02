@@ -49,6 +49,10 @@ localhoost:3000/recipe-book
 meteortoys:allthings
 
 
+**Cargar el archivo JSON en la consola con
+meteor --settings settings.json
+
+
 **Agregar libreria, esta es la vieja confiable
 
 meteor add check
