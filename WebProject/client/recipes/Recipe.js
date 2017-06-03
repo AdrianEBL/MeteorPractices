@@ -7,6 +7,9 @@ Template.Recipe.onCreated(function(){
 Template.Recipe.helpers({
 	updateRecipeId: ()=> {
 		return this._id;
+	},
+	editMode: function() {
+		return Template.instance().editMode.get();
 	}
 });
 
@@ -19,7 +22,7 @@ Template.Recipe.events({
 
 	},
 	'click .fa-pencil' : function() {
-		Session.set('editMode', !Session.get('editMode'));
+		template.editMode.set(!template.editMode.get());
 
 	}
 });
