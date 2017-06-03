@@ -58,3 +58,5 @@ meteor --settings settings.json
 meteor add check
 
 --Se debe checar codigo en el capitulo 20 no esta funcionando
+
+En el capitulo 24 se agrega la libreria reactive-var 
