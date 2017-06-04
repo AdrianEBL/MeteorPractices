@@ -5,7 +5,7 @@ Template.Recipe.onCreated(function(){
 });
 
 Template.Recipe.helpers({
-	updateRecipeId: ()=> {
+	updateRecipeId: function() {
 		return this._id;
 	},
 	editMode: function() {
@@ -19,10 +19,11 @@ Template.Recipe.events({
 	},
 	'click .fa-trash' : function() {
 		Meteor.call('deleteRecipe', this._id);
+		//console.log(this);
 
 	},
 	'click .fa-pencil' : function() {
-		template.editMode.set(!template.editMode.get());
-
+		//template.editMode.set(!template.editMode.get());
+		Session.set('editMode', !Session.get('editMode'));
 	}
 });
