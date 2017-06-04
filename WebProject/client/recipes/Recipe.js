@@ -22,8 +22,8 @@ Template.Recipe.events({
 		//console.log(this);
 
 	},
-	'click .fa-pencil' : function() {
-		//template.editMode.set(!template.editMode.get());
-		Session.set('editMode', !Session.get('editMode'));
+	'click .fa-pencil' : function(event, template) {
+		template.editMode.set(!template.editMode.get());
+		//Session.set('editMode', !Session.get('editMode'));
 	}
 });
