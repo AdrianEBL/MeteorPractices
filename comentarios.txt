@@ -62,3 +62,8 @@ meteor add check
 En el capitulo 24 se agrega la libreria reactive-var 
 
 --Se han terminado todos los capitulos
+
+
+**Agregar paquete
+
+meteor add session

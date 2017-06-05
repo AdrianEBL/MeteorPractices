@@ -3,7 +3,7 @@
     {{#if $.Session.get 'newRecipe'}}
         {{> NewRecipe}}
     {{else}}
-        <button class="new-Recipe">New Recipe</button>
+        <button class="new-recipe">New Recipe</button>
     {{/if}}
     <section class="recipes">
          {{#if Template.subscriptionsReady}}
@@ -12,7 +12,6 @@
             {{/each}}
         {{else}}
             <p>Loading</p>
-        {{/if}} 
+        {{/if}}
     </section>
 </template>
-
